@@ -1,4 +1,5 @@
 import {borders} from '../types/enum'
+
 export class pais{
     constructor(
         public readonly name: string,
