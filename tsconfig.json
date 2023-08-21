@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/class",
+        "target": "ES6",
+        "noEmitOnError": true,
+        "noImplicitAny": true
+    },
+    "include":["app/classes"]    
+}
