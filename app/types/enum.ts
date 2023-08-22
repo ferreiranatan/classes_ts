@@ -1,14 +1,20 @@
-export enum borders{
+export enum Borders{
 
-    ARG = "ARG",
-    BOL = "BOL",
-    COL = "COL",
-    GUF = "GUF",
-    GUY = "GUY",
-    PRY = "PRY",
-    PER = "PER",
-    SUR = "SUR",
-    URY = "URY",
-    VEN = "VEN"
+    ARGENTINA = "ARG",
+    BOLIVIA = "BOL",
+    COLOMBIA = "COL",
+    GUYANA_FRANCESA = "GUF",
+    GUYANA= "GUY",
+    PARAGUAY = "PRY",
+    PERU = "PER",
+    SURINAME = "SUR",
+    URUGUAY = "URY",
+    VENEZUELA = "VEN"
+}
+
+
+
+export enum Languages{
+    "Portuguese"
 }
 
