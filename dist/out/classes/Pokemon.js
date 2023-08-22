@@ -9,11 +9,4 @@ export class Pokemon {
         this.abilities = abilities;
     }
 }
-const pokemon1 = new Pokemon(
-    1,
-    "Ditto",
-    3,
-    40,
-    false, 19960601,
-    ["limber", "imposter"]
-    );
+const pokemon1 = new Pokemon(1, "Ditto", 3, 40, false, "1996-06-01", ["limber", "imposter"]);

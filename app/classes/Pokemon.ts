@@ -24,3 +24,4 @@ const pokemon1 = new Pokemon(
 )
 
 
+console.log(pokemon1)
