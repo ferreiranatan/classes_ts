@@ -1,6 +1,6 @@
-import { Filme } from "./classes/Filme";
-import { Pais } from "./classes/Pais";
-import { Pokemon } from "./classes/Pokemon";
+import { Filme } from "../out/classes/Filme.js";
+import { Pais } from "../out/classes/Pais.js";
+import { Pokemon } from "../out/classes/Pokemon.js";
 
 Filme;
 Pais;

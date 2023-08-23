@@ -1,5 +1,5 @@
-import { Borders } from '../types/enum'
-import { Languages } from '../types/enum'
+import { Borders } from '../types/enum.js'
+import { Languages } from '../types/enum.js'
 
 export class Pais {
     constructor(
@@ -71,10 +71,6 @@ const brasil = new Pais(
         "png": "https://flagcdn.com/w320/br.png",
         "svg": "https://flagcdn.com/br.svg"
     }
-
-
-
-
-
-
 )
+
+console.log(brasil)

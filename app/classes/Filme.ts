@@ -10,7 +10,9 @@ export class Filme{
         public poster_img: string,
         public readonly release_date: string,
         public title: string,
-        public video: boolean 
+        public video: boolean ,
+        public vote_average: number,
+        public vote_count: number
         ){}
     }
 
@@ -26,6 +28,9 @@ const guardiansOfTheGalaxy = new Filme(
         "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
         "2023-05-03",
         "Guardians of the Galaxy Vol. 3",
-        false
+        false,
+        8.1,
+        3154
     )
 
+    console.log(guardiansOfTheGalaxy)
